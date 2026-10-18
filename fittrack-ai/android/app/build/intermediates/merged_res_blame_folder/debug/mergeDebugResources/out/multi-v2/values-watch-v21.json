@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.fittrack.ai.app-mergeDebugResources-72:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\priya\\.gradle\\caches\\9.7.1\\transforms\\ce6c9eae94f37fa2ccb20e2978d8f005\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

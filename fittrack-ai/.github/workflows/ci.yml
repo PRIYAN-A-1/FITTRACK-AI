@@ -1,0 +1,52 @@
+name: FitTrack AI CI Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  backend-tests:
+    name: Backend & AI Engine Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+          pip install pytest pytest-asyncio
+
+      - name: Run Pytest Test Suite
+        run: |
+          pytest tests/ -v --tb=short
+
+  android-build:
+    name: Android Verification & Unit Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: "21"
+          distribution: "temurin"
+
+      - name: Grant Execute Permissions for Gradlew
+        run: chmod +x android/gradlew
+
+      - name: Run Android Unit Tests
+        run: |
+          cd android
+          ./gradlew testDebugUnitTest --no-daemon

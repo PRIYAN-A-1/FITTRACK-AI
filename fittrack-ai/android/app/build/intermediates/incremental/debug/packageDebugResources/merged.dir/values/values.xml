@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_amber">#F59E0B</color>
+    <color name="carbs_amber">#F59E0B</color>
+    <color name="card_dark">#161F2E</color>
+    <color name="card_light">#FFFFFF</color>
+    <color name="fat_rose">#F43F5E</color>
+    <color name="fiber_emerald">#10B981</color>
+    <color name="primary">#0D9488</color>
+    <color name="primary_variant">#0F766E</color>
+    <color name="protein_blue">#3B82F6</color>
+    <color name="surface_dark">#0B0F17</color>
+    <color name="surface_light">#F8FAFC</color>
+    <color name="text_primary_dark">#F1F5F9</color>
+    <color name="text_secondary_dark">#94A3B8</color>
+    <string name="app_name">FitTrack AI</string>
+    <string name="barcode_scan">Scan Barcode</string>
+    <string name="calories">Calories</string>
+    <string name="carbs">Carbs</string>
+    <string name="daily_summary">Daily Summary</string>
+    <string name="fat">Fat</string>
+    <string name="fiber">Fiber</string>
+    <string name="nutrition_label">Nutrition Label</string>
+    <string name="protein">Protein</string>
+    <string name="scan_food">Scan Food</string>
+    <string name="tagline">Intelligent Food Vision &amp; Precision Nutrition</string>
+    <string name="take_photo">Capture Meal</string>
+    <string name="voice_log">Voice Meal</string>
+    <string name="water">Water</string>
+    <style name="Theme.FitTrackAI" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#0B0F17</item>
+        <item name="android:navigationBarColor">#0B0F17</item>
+        <item name="android:windowBackground">#0B0F17</item>
+    </style>
+</resources>

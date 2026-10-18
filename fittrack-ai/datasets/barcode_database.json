@@ -1,0 +1,97 @@
+[
+  {
+    "barcode": "8901030865412",
+    "product_name": "Amul Taaza Homogenised Toned Milk",
+    "brand": "Amul",
+    "serving_size": "200ml",
+    "serving_weight_g": 206,
+    "per_100g": {
+      "calories": 58,
+      "protein_g": 3.0,
+      "carbs_g": 4.7,
+      "fat_g": 3.0,
+      "fiber_g": 0.0,
+      "sugar_g": 4.7,
+      "sodium_mg": 50,
+      "saturated_fat_g": 1.9,
+      "cholesterol_mg": 8
+    },
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901725181222",
+    "product_name": "Quaker Rolled Oats 100% Wholegrain",
+    "brand": "Quaker",
+    "serving_size": "40g",
+    "serving_weight_g": 40,
+    "per_100g": {
+      "calories": 389,
+      "protein_g": 13.5,
+      "carbs_g": 66.3,
+      "fat_g": 8.1,
+      "fiber_g": 10.0,
+      "sugar_g": 1.1,
+      "sodium_mg": 9,
+      "saturated_fat_g": 1.5,
+      "cholesterol_mg": 0
+    },
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904221101569",
+    "product_name": "Epigamia Greek Yogurt Natural High Protein",
+    "brand": "Epigamia",
+    "serving_size": "100g",
+    "serving_weight_g": 100,
+    "per_100g": {
+      "calories": 90,
+      "protein_g": 8.0,
+      "carbs_g": 5.0,
+      "fat_g": 4.0,
+      "fiber_g": 0.0,
+      "sugar_g": 4.0,
+      "sodium_mg": 45,
+      "saturated_fat_g": 2.5,
+      "cholesterol_mg": 12
+    },
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906064440019",
+    "product_name": "RiteBite Max Protein Daily Bar - Choco Almond 10g Protein",
+    "brand": "Max Protein",
+    "serving_size": "50g bar",
+    "serving_weight_g": 50,
+    "per_100g": {
+      "calories": 380,
+      "protein_g": 20.0,
+      "carbs_g": 46.0,
+      "fat_g": 12.0,
+      "fiber_g": 8.0,
+      "sugar_g": 10.0,
+      "sodium_mg": 180,
+      "saturated_fat_g": 4.0,
+      "cholesterol_mg": 5
+    },
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "011110038334",
+    "product_name": "Kroger Pure Creamy Peanut Butter",
+    "brand": "Kroger",
+    "serving_size": "2 tbsp (32g)",
+    "serving_weight_g": 32,
+    "per_100g": {
+      "calories": 588,
+      "protein_g": 25.0,
+      "carbs_g": 20.0,
+      "fat_g": 50.0,
+      "fiber_g": 6.0,
+      "sugar_g": 6.0,
+      "sodium_mg": 420,
+      "saturated_fat_g": 10.0,
+      "cholesterol_mg": 0
+    },
+    "source": "Open Food Facts / USDA"
+  }
+]
